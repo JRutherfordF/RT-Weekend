@@ -17,9 +17,9 @@ public:
 	double y() const { return e[1]; }
 	double z() const { return e[2]; }
 
-	vec3 operator-() const { return vec3(-e[0], -e[1], -e[2]); } //returns a negated version of the current object
-	double operator[](int i) const { return e[i]; } //returns an element of the vec3 without modifying it
-	double& operator[](int i) { return e[i]; } //returns a reference to an element of the vec3 to modify
+	vec3 operator-() const { return vec3(-e[0], -e[1], -e[2]); } // Returns a negated version of the current object
+	double operator[](int i) const { return e[i]; } // Returns an element of the vec3 without modifying it
+	double& operator[](int i) { return e[i]; } // Returns a reference to an element of the vec3 to modify
 
 	vec3& operator+=(const vec3& v) {
 		e[0] += v.e[0];
@@ -46,7 +46,7 @@ public:
 	}
 };
 
-using point3 = vec3; //since both colour and coordinate data will use vec3, aliases are used to make distinguishing them easier
+using point3 = vec3; // Since both colour and coordinate data will use vec3, aliases are used to make distinguishing them easier
 
 // Vector utility functions
 
