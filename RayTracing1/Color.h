@@ -1,8 +1,8 @@
 #ifndef COLOR_H
 #define COLOR_H
 
-#include "vec3.h"
-#include <iostream>
+#include "RTWeekend.h"
+#include "Vec3.h"
 
 using color = vec3; // Since both colour and coordinate data will use vec3, aliases are used to make distinguishing them easier
 

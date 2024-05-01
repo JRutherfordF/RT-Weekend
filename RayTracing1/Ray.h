@@ -1,6 +1,7 @@
 #ifndef RAY_H
 #define RAY_H
 
+#include "RTWeekend.h"
 #include "Vec3.h"
 
 class ray {
